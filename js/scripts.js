@@ -1,16 +1,18 @@
- $(document).ready(fuction(){
+ $(document).ready(function() {
+   $("#submit").click(function(event) {
 
-   $("#submit").click(fuction(event) {
-    var questOne = $ ("input.radio[name=question1]:checked"):val();
-    var questTwo = $ ("input.radio[name=question2]:checked"):val();
-    var questThree = $ ("input.radio[name=question3]:checked"):val();
+    var questOne = $  ("input.radio[name=question1]:checked").val(20);
+    var questTwo = $  ("input.radio[name=question2]:checked").val(20);
+    var questThree = $ ("input.radio[name=question3]:checked").val(20);
 
-    var yourScore =perseInt(questOne)+perseInt(questTwo)+perseInt(questThree);
-    $("#yourScore").text("your score is:" + your score + "%");
+    var yourScore = parseInt(questOne) + parseInt(questTwo) + parseInt(questThree);
+    $("#yourScore").text("your score is:" + yourScore + "%");
 
-    $("#quiz").hide();
-    $("#yourScore").show();
     event.preventDefault();
+    $("#quiz").hide();
+
+    $("#yourScore").show();
+
   });
 
 });
