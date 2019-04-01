@@ -1,7 +1,7 @@
 # Quiz
 Website Name: Quizz By: Robert Njau on 30th March 2019 Description The website has questions with multi-choice answers, and each correct answer awards the user 20mks
 
-website url: https://yazz-njau.github.io/Quiz/.
+website url: hthttps://yazz-njau.github.io/Quiz/.
 
 Setup/Installation Requirements Just click on the website link to begin the test. Known Bugs There are no known bugs.
 
