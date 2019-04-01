@@ -3,7 +3,8 @@
 }
 
 body{
-  background-image: url(..//images/trees.jpeg);
+  background-color: teal;
+  mmmbackground-image: url(..//images/trees.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 
