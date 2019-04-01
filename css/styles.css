@@ -1,0 +1,36 @@
+#yourScore{
+  display: none;
+}
+
+body{
+  background-color: teal;
+  color: pink;
+  background-image:url(shi.jpg);
+}
+.jumbotron{
+  width: 60%;
+  height: 100px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #;
+  color: #ffcc00 ;
+  border-radius: 20px;
+}
+h1{
+  padding-bottom: 10px;
+}
+.container{
+  background-color:  #1d1d2f;
+  width: 50%;
+  color: #ffcc00;
+  margin: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  border-radius: 10px;
+}
+
+button{
+  color: FFFFF;
+}
